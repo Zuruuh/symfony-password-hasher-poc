@@ -4,7 +4,7 @@ use App\Entity\User;
 use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
 use Symfony\Config\SecurityConfig;
 
-// https://symfony.com/doc/5.4/security.html
+// https://symfony.com/doc/current/security.html#registering-the-user-hashing-passwords
 return static function (SecurityConfig $security) {
     $security->enableAuthenticatorManager(true);
 
